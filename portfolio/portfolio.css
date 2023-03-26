@@ -1,0 +1,179 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* nav section start */
+body {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#navbar {
+    position: fixed;
+    background-color: orangered;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+
+
+
+}
+
+.cantainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.navbar1:hover {
+    font-size: 25px;
+    opacity: 100%;
+    color: white;
+
+
+}
+
+.navbar1 {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    font-size: 20px;
+    opacity: 0.6;
+
+
+}
+
+
+.box1 {
+
+    top: 25px;
+    position: absolute;
+    width: 150px;
+    border-radius: 80%;
+}
+
+img {
+    border: 5px solid rgb(255, 112, 60);
+    position: absolute;
+    top: 30px;
+    width: 150px;
+    border-radius: 80%;
+    aspect-ratio: 1/1;
+}
+
+/* main section  about start  */
+
+#Mirhasan_Baghirov {
+    width: 80%;
+    margin-top: 270px;
+    margin-left: 23%;
+
+
+}
+.EXPERIENCE1{
+    font-size: 35px;
+    color: rgb(136, 136, 136);
+}
+
+.name_surname {
+    font-size: 35px;
+
+}
+
+.name_surname::after {
+    content: "BAGHIROV";
+    color: red;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa-brands {
+    font-size: 30px;
+
+}
+
+.insta {
+    background-color: black;
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.icon {
+    transition: 1s;
+}
+
+.icon:hover {
+    background-color: rgb(255, 157, 59);
+
+}
+
+.end1{
+    width: 80%;
+    height:150px ;
+}
+/*section  about end  */
+
+/* main education sectin  start*/
+
+.box3{
+    display: inline-block;
+    
+}
+
+.box5{
+    color: rgb(137, 135, 135);
+    font-size: 35px;
+}
+.time{
+    display: inline-block;
+    margin-left: 620px;
+    color: coral;
+    font-size: 15px;
+
+}
+
+.boxx{
+    margin-left:980px;
+    display: inline;
+}
+span{
+    color: grey;   
+}
+/* main education sectin  end*/
+
+/* main skills  sectin  start*/
+.skills{
+    font-size: 35px;
+    color: rgb(134, 134, 134);
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+.fa-brands.fa-html5{
+   padding: 20px; 
+   font-size: 50px;
+}
+.fa-brands.fa-css3-alt{
+    font-size: 50px;
+}
+
+.box4{
+    font-size: 35px;
+    color: rgb(156, 156, 156);
+}
+
+.haqqımda{
+    font-size: 16px;
+}
